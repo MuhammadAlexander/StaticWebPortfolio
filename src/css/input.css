@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .text-bold{
+        @apply font-inter font-bold;
+    }
+    .text-mid{
+        @apply w-24 flex gap-1  flex-col text-center hover:shadow-xl transition-all duration-500;
+    }
+
+    .learning-text{
+        @apply  text-sm w-20 flex gap-1  flex-col text-center hover:shadow-xl transition-all duration-500;
+
+    }
+}
